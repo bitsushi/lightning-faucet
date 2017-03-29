@@ -116,7 +116,7 @@ func main() {
 	m := autocert.Manager{
 		Prompt:     autocert.AcceptTOS,
 		Cache:      certCache,
-		HostPolicy: autocert.HostWhitelist("faucet.lightning.community"),
+		HostPolicy: autocert.HostWhitelist("faucet.bitsushi.com"),
 	}
 
 	// As we'd like all requests to default to https, redirect all regular
